@@ -1,0 +1,15 @@
+﻿<Window x:Class="SpaceShooter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:SpaceShooter"
+        Title="NEON VOID"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Black">
+
+    <Grid>
+        <local:GameCanvas x:Name="Game" />
+    </Grid>
+</Window>
